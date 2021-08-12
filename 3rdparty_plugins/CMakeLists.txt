@@ -133,6 +133,3 @@ if (UNIX AND NOT APPLE)
     set(LINUX true)
     set(PATCH_COMMAND patch)
 endif ()
-
-# this list must be dependency-ordered
-add_subdirectory( ext_gmic )
